@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+:root{
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+    --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+    --Verylightgray: hsl(0, 0%, 95%);
+}
+main{
+    /* border: 1px solid blue; */
+    
+    /* flex-basis: 33%; */
+    width: 700px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    align-content: center;
+    grid-auto-rows: minmax(150px, auto);
+    /* min-width: ; */
+    margin: 120px auto;
+}
+section{
+    /* border: 1px solid red; */
+    padding: 30px;
+    flex-basis: 33%;
+}
+/* HEADING */
+h1{
+    font-size: 32px;
+    color: var(--Verylightgray);
+    font-family: "Big Shoulders Display", Poppins, sans-serif;
+}
+/* PARAGRAPH */
+p{
+    font-family: "Lexend Deca", Open Sans, serif;
+    font-size: 15px;
+    color: var(--Transparentwhite);
+    padding: 20px 0px;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+/* IMAGE */
+img{
+    padding-bottom: 20px;    
+}
+/* BUTTON */
+button{
+    background-color: var(--Verylightgray);
+    border-color: var(--Verylightgray);
+    height: 45px;
+    width: 120px;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: 400;
+}
+/* section one */
+.sec-1{
+    background-color: var(--Brightorange);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+/* SEC-1 button */
+.sec-1 button{
+    color: var(--Brightorange);
+}
+/* sec-1 button hover */
+.sec-1 button:hover{
+    border: 1px solid var(--Verylightgray);
+    color: var(--Transparentwhite);
+    cursor: pointer;
+    background-color: var(--Brightorange);
+}
+/* section two */
+.sec-2{
+    background-color: var(--Darkcyan);
+}
+/* button */
+.sec-2 button{
+    color: var(--Darkcyan);
+}
+.sec-2 button:hover{
+    border: 1px solid var(--Verylightgray);
+    color: var(--Transparentwhite);
+    cursor: pointer;
+    background-color: var(--Darkcyan);
+}
+/* section three */
+.sec-3{
+    background-color: var(--Verydarkcyan);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/* button */
+.sec-3 button{
+    color: var(--Verydarkcyan);
+}
+.sec-3 button:hover{
+    background-color: var(--Verydarkcyan);
+    border: 1px solid var(--Verylightgray);
+    color: var(--Verylightgray);
+    cursor: pointer;
+}
+.attribution {
+    font-size: 15px; 
+    text-align: center; 
+    color: var(--Darkcyan);
+}
+.attribution a {
+    color: var(--Brightorange);
+}

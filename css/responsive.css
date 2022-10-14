@@ -1,0 +1,41 @@
+@media only screen and (max-width: 500px) {
+   main{
+    display: block;
+    max-width: 80%;
+    margin: 50px auto
+   }
+   section{
+    width: 100%;
+   } 
+   /* section one */
+   .sec-1{
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 0px;
+   }
+   /* section three */
+   .sec-3{
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 0px;
+   }
+}
+@media  (min-width:501px) and (max-width: 751px) {
+   main{
+      width:500px;
+      margin: 50px auto;
+      font-size: 14px;
+      display: flex;
+   }
+   /* section one */
+   .sec-1{
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+   }
+   /* section three */
+   .sec-3{
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 0px;
+   }
+}
